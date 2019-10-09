@@ -2,7 +2,7 @@ def average(A):
 	s=0
 	for x in A
 	s += x
-	x/=len(A)
+	x /=len(A)
 		return x
 
 if __name__ ==  '__main__':
