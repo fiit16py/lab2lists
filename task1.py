@@ -4,3 +4,4 @@ def average(A):
 if __name__ == '__main__':
 	  A = list(map(int, input().split()))
 	  print(average(A))
+//fd
