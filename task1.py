@@ -1,4 +1,5 @@
 def average(A):
+	# это камент
     return 0
 
 if __name__ == '__main__':
