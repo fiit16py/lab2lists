@@ -1,6 +1,6 @@
 def max_even(A):
 	m = max(A)
-	if m % 2 = 0:
+	if m % 2 == 0:
 		return m
 	else:
 		return None
