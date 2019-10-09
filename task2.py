@@ -1,5 +1,5 @@
 def max_even(A):
-    return None
+    return max([b for b in A if b % 2 == 0])
 
 if __name__ == '__main__':
 	  A = list(map(int, input().split()))

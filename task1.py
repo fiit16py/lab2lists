@@ -1,5 +1,5 @@
 def average(A):
-    return 0
+    return sum(A)/len(A)
 
 if __name__ == '__main__':
 	  A = list(map(int, input().split()))
