@@ -1,13 +1,9 @@
 def max_even(A):
-    while(True):
-        m = max(A)
-        if m % 2 == 0:
-            return m
-        elif len(A) > 1:
-            A.pop(A.index(m))
-            continue
-        else:
-            return None
+    A.sort()
+    for i in A:
+        if i % 2 == 0:
+            return i
+    return None
 
 if __name__ == '__main__':
 	  A = list(map(int, input().split()))
