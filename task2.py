@@ -3,7 +3,10 @@ def max_even(A):
 	for i in A:
 		if i % 2 == 0:
 			mx = max(mx, i)
-	return mx
+	if mx == 0:
+		return None
+	else:
+		return mx
 
 if __name__ == '__main__':
 	A = list(map(int, input().split()))
