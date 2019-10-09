@@ -1,10 +1,7 @@
 def cut_swap(A, n):
-    tempList = A.copy()
-    for i in range(n, len(A)):
-        A[i] = tempList[i - n - 1]
-
-    for i in range(n):
-        A[i] = tempList[i + n]
+    for j in range(n):
+        for i in range(len(A) - 1):
+            A[i], A[i + 1] = A[i + 1], A[i]
 
 
 if __name__ == '__main__':
