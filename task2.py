@@ -1,11 +1,12 @@
 def max_even(A):
-    maxn=A[0]
+    maxn=-1
     for i in A:
         if i%2==0:
             if maxn<i:
                 maxn=i
-    return maxn
-
+    if maxn==-1:
+         return "false"
+    else:  return maxn
 if __name__ == '__main__':
 	  A = list(map(int, input().split()))
 	  print(max_even(A))
