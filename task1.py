@@ -1,7 +1,7 @@
 def average(A):
 	sum=0
 	for i in A:
-	sum +=i
+	sum += i
 		return sum/len(A)
 
 if __name__ ==  '__main__':
