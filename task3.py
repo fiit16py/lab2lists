@@ -7,7 +7,6 @@ def cut_swap(A,n):
     for i in range(n):
         A[nu]=F[i]
         nu=nu+1
-    print(list(A))
 
 if __name__ == '__main__':
     A = list(map(int, input().split()))
