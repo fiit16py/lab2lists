@@ -1,8 +1,9 @@
 def average(A):
-	sum=0
-	for i in A:
-		sum +=i
-		return sum/len(A)
+	s=0
+	for x in A
+	s += x
+	x/=len(A)
+		return x
 
 if __name__ ==  '__main__':
 	  A = list(map(int, input().split()))
