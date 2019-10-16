@@ -8,6 +8,7 @@ def cut_swap(A,k):
     for i in range(-1,(k-n)//2,-1):
         A[i], A[k-1-i] = A[k-1-i], A[i]
 
+
 if __name__ == '__main__':
     A = list(map(int, input().split()))
     dlina_pervogo_otrezka = int(input())
