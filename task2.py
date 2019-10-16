@@ -1,5 +1,10 @@
 def max_even(A):
-    return None
+	while A:
+		if max(A)%2==0:
+			return max(A)
+		else:
+			A.remove(max(A))
+	return False
 
 if __name__ == '__main__':
 	  A = list(map(int, input().split()))
